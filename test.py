@@ -1,1 +1,3 @@
-This is where is do my work note
+name = "Nate"
+
+print(name)
