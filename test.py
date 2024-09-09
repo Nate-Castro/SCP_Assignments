@@ -1,3 +1,7 @@
-name = "Nate"
+#include <studio.h>
 
-print(name)
+int main(void){
+    printf("hello world");
+    return 0;
+
+  }
