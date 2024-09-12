@@ -1,3 +1,4 @@
 
-name = input("Stand")
+name = input("Stand: ")
 
+print("Stand name:", name)
