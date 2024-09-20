@@ -1,0 +1,11 @@
+name = "Nate"
+num = "7"
+num2 = "573"
+breakfast = "Toast"
+color = "Purple"
+school = "UCAS"
+year = "2024"
+eyes = "Brown"
+age = "15"
+subject = "Math"
+print(name, num, num2, breakfast, color, school, year, eyes, age , subject)
