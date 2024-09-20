@@ -1,16 +1,23 @@
 #include <stdio.h>
 
 int main(void){
-    char income[9];
-    char utilities[9];
-    char groceries[9];
-    char car[0];
-    printf("This is a budget calculator. \n How much do you make a month?\n");
-    scanf("%s", income);  
+    float income, rent, utilities, groceries, transportation, savings, spend, expenses;
+    printf("This is a budget calculator. \n How much do you make a month?\n"); 
+    scanf("%f", &income); 
+    printf("How much does your rent cost?\n");
+    scanf("%f", &rent); 
     printf("How much do your utilities cost?\n");
-    scanf("%s", utilities);
-    printf("You make %s\n", income);  
-    float spend[] = (float) income - (float) utilities;
-    printf("%f"spend);
+    scanf("%f", &utilities);
+    printf("How much do your groceries cost?\n");
+    scanf("%f", &groceries);
+    printf("How much does your transportation cost?\n");
+    scanf("%f", &transportation);
+    printf("How much do you save?\n");
+    scanf("%f", &savings);
+    printf("How much do you spend?\n");
+    scanf("%f", &spend);
+    printf("How much do your expenses cost?\n");
+    scanf("%f", &expenses);
+    printf("You make %.2f\n", &income); 
     return 0;
 }
