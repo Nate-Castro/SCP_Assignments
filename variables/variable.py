@@ -6,6 +6,6 @@ color = "Purple"
 school = "UCAS"
 year = "2024"
 eyes = "Brown"
-age = "15"
+age = "14"
 subject = "Math"
 print(name, num, num2, breakfast, color, school, year, eyes, age , subject)
