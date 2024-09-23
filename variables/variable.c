@@ -10,7 +10,7 @@ int main(void){
     char year = "2024";
     char age = "14";
     char subject = "Math";
-    printf
+    printf(name, num, num2, breakfast, color, school, year, age, subject);
     
     return 0;
 }
