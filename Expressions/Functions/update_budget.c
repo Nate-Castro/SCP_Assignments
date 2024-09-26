@@ -15,7 +15,7 @@ void percent(char type[], int amount){
 }
 
 
-int main(void){
+int main(){
   printf("This is a budget calculator. \n");
   
   income = input("income", income);
