@@ -1,6 +1,10 @@
-#include <stdio.h>
+ #include <stdio.h>
+char sibs[2][20] = {"Eliana", "Juliette"};
 int i;
 int main(){
-    for(i=0;i<=10;i++);
-    printf(i);
+    while(i<10){
+        printf("%s\n", sibs[i]);
+        i++;
+    }
+    return 0;
 }
