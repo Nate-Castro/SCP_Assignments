@@ -6,6 +6,7 @@ drive = 16
 permit = 15
 school = 5
 
+
 if age >= vote:
     print("You are old enough to vote!")
 else:

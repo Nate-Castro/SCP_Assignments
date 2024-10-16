@@ -1,7 +1,7 @@
-import random 
+#mport random 
 
-x = 0
+#x = 0
 
-while x < 21:
-    print(x)
-    x += 1
+#while x < 21:
+   # print(x)
+   # x += 1
