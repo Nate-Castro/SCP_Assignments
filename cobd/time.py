@@ -2,6 +2,8 @@
 import time
 
 
+
+
 if time.day <= 12:
     print("Good morning")
 
