@@ -11,26 +11,44 @@ savings = int(input("How much money will you save?: "))
 
 #Put all of these print statements into one function that changes for all of them
 
-print("Your monthly income is$", income)
-print("Your monthly rent is $", rent)
-print("Your monthly utilities is $", utilities)
-print("Your monthly groceries is $", groceries)
-print("Your monthly transportation is $", transportation)
-print("Every month you save $", savings)
+def word(user, name):
+    print("Your monthly", name, "is $", user)
+    return
 
-#def per():
-    #print(int((income) * 100))
 
-prent = int(rent / income * 100)
-putilities = int(utilities / income * 100)
-pgroceries = int(groceries / income * 100)
-ptransportation = int(transportation / income * 100)
-savings = int(savings / income * 100)
-spending = int((income - (prent + putilities + pgroceries + ptransportation + savings)))
+#print("Your monthly income is $", income)
+word(income, "income")
+#print("Your monthly rent is $", rent)
+word(rent, "rent")
+#print("Your monthly utilities is $", utilities)
+word(utilities, "utilities")
+#print("Your monthly groceries is $", groceries)
+word(groceries, "groceries")
+#print("Your monthly transportation is $", transportation)
+word(transportation, "transportation")
+#print("Every month you save $", savings)
+word(savings, "savings")
 
-print("Your rent is %", prent,"of your monthly income")
-print("Your utilities is %", putilities, "of yout monthly income")
-print("Your groceries is %", pgroceries, "of your monthly income")
-print("Your transportation is %", ptransportation, "of your monthly income")
+def per(num):
+    print(int(num / income * 100))
+    return
+
+
+#prent = int(rent)# / income * 100)
+per(rent)
+#putilities = int(utilities / income * 100)
+per(utilities)
+#pgroceries = int(groceries / income * 100)
+per(groceries)
+#ptransportation = int(transportation / income * 100)
+per(transportation)
+#savings = int(savings / income * 100)
+per(savings)
+spending = int((income - (rent + utilities + groceries + transportation + savings)))
+
+print("Your rent is %", rent,"of your monthly income")
+print("Your utilities is %", utilities, "of yout monthly income")
+print("Your groceries is %", groceries, "of your monthly income")
+print("Your transportation is %", transportation, "of your monthly income")
 print("You have $", spending, " left to spend of your income")
 print("You save %", savings, "of your income")
