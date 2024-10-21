@@ -1,17 +1,18 @@
 #Nathaniel Castro Time of Day 
-import time
+
+
+time = int(input('What time is it for you?: '))
 
 
 
-
-if time.day <= 12:
+if time <= 11:
     print("Good morning")
-
-if time.noon >= 12:
+    
+if time >= 12:
     print("Good afternoon")
 
-if time.night >= 20:
+if time >= 20:
     print("Good night")
 
-else:
-    print("Go to bed NOW!")
+#else:
+#    print("Go to bed NOW!")
