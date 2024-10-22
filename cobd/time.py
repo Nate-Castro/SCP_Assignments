@@ -11,7 +11,7 @@ if time <= 11:
 if time >= 12:
     print("Good afternoon")
 
-if time >= 20:
+if time <= 20 and time >= 18:
     print("Good night")
 
 #else:
