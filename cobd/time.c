@@ -3,12 +3,19 @@
 #include <stdio.h>
 int time;
 
-int main(time){
-    printf("What time is it for you?: ");
-    scanf("%d\n", time);
 
-        if time <= 11:
-        print("Good morning");
+int main(){
+    printf("What time is it for you?: ");
+    scanf("%d\n", &time);
+
+        if (time <= 11){
+            printf("Good morning\n");
+        
+        }else if (time >= 12, time <= 20){
+            printf("Good afternoon\n");
+        }else if (time >= 20){
+            printf("Good night\n");
+        }
 
 
     return 0;
